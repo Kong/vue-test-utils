@@ -1,4 +1,5 @@
 .idea
 node_modules
-dist
+# Commented out since we're currently using the git repo as the dependency
+# dist
 coverage
