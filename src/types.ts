@@ -84,6 +84,8 @@ export interface MountingOptions<Props, Data = {}> {
    * @see https://next.vue-test-utils.vuejs.org/api/#slots
    */
   shallow?: boolean
+
+  rootComponentOptions?: ComponentOptions
 }
 
 export type Stub = boolean | Component

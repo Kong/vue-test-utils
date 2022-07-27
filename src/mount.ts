@@ -430,7 +430,8 @@ export function mount(
     name: 'VTU_ROOT',
     render() {
       return h(component as ComponentOptions, { ...props, ...refs }, slots)
-    }
+    },
+    ...options?.rootComponentOptions
   })
 
   const setProps = (newProps: Record<string, unknown>) => {
